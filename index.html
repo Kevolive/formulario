@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de contacto</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="miScript.js">
 </head>
 <body>
  <div class="titulo1">
   <h1>Por favor diligencia este formulario:</h1>
  </div> 
 
-  <form action="https://formspree.io/f/xovadrqa" method="post">
+  <form action="https://formspree.io/f/xovadrqa" method="post" id="formRegistro">
 
     <label for="nombre"><strong>Nombre del personaje:</strong></label> <br>
     <input type="text" id="nombre" required>
@@ -29,8 +30,8 @@
     <input type="number" name="celular" id="celular" required> <br><br>
     <label for="password">Contraseña:</label><br>
     <input type="password" name="contraseña" id="password"> <br> <br>
-    <label for="password">Confirmar contraseña:</label><br>
-    <input type="password" name="contraseña" id="password"> <br> <br>
+    <label for="confirmPassword">Confirmar contraseña:</label><br>
+    <input type="confirmPassword" name="confirmPassword" id="confirmPassword"> <br> <br>
     <label for="genero">Género:</label> <br>
     <label for="male">Masculino:</label>
     <input type="checkbox">
